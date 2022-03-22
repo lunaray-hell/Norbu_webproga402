@@ -1,0 +1,41 @@
+body {
+	display: flex;
+	justify-content: center;
+}
+.content {
+	background-color: #ff5c77;
+	margin: 15px; 
+	padding: 15px;
+	border: 5px solid #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.col{
+	background-color: #cc89f7;
+	margin: 15px;
+	padding: 15px;
+	border: 5px solid #cf1b82;;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.dudeslu{
+list-style: none;
+padding: 0;
+}
+.dudeslu li{
+	padding: 10px 30px;
+	background:#1b3697;
+	/* border-bottom: 1px solid grey; */
+	color: #fff;
+	font-size: 25px;
+	/* box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .2); */
+	margin-bottom: 5px;
+}
+.dudeslu li:first-child{
+	border-bottom: none;
+}
+p{
+	font-size: 22px;
+}
