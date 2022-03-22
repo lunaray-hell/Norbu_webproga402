@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<body>
+	<font face="Comic Sans MS" size="3">
+	<h1>Анкета посетителя ресторана</h1>
+	Контактная информация
+	<br>
+	<style> 
+	select {width: 457px} 
+	</style>
+	<form>
+		Имя<br>
+		<input type="text" name="name" size="60"> <br>
+		Телефон<br>
+		<input type="number" name="phone" size="60"> <br>
+		E-mail<br>
+		<input type="email" name="e-mail" size="60"> <br>
+		Дата посещения<br>
+		<input type="date" name="date" size="60" value="дд.мм.гггг"> <br>
+		Персональная информация<br>
+		Возраст<br>
+		<input type="number" name="age" size="60"> <br>
+		Любимая кухня<br>
+	<select name="favcuisine">
+		<option selected>Русская</option>
+		<option>Китайская</option>
+		<option>Итальянская</option>
+		<option>Японская</option>
+		<option>Армянская</option>
+	</select> <br>
+		Какие блюда вы бы хотели увидеть в меню<br>
+		<textarea name="feedback" rows="10" cols="62">
+		</textarea> <br>
+		<br>
+		Почему вы выбрали наше заведение?<br>
+		<br>
+	<div style="margin-left:15px">
+		&#128216 <input type="radio" name="group" value="rabota"> Недалеко от работы <br>
+		&#128216 <input type="radio" name="group" value="reklama"> Реклама <br>
+		&#128216 <input type="radio" name="group" value="sovet"> Посоветовали <br>
+	</div>
+	<br>
+	Вы будете рекомендовать наше заведение?<br>
+	<br>
+		&#128216 <input type="radio" name="Yes/No" value="yes"> Да <br>
+		&#128216 <input type="radio" name="Yes/No" value="no"> Нет <br>
+	<br>
+	<input type="reset" value="Сброс">
+	<input type="submit" value="Отправить форму">
+	</form>
+	</font>
+	</body>
+</html>
