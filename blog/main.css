@@ -1,0 +1,78 @@
+.bg-dark{
+    background-color: #333;
+}
+.text-white{
+    color: #ffffff;
+}
+.p-0{
+    padding: 0;
+}
+.p-1{
+    padding: 1rem;
+}
+.p-2{
+    padding: 1.5rem;
+}
+.p-3{
+    padding: 2rem;
+}
+.p-4{
+    padding: 2.5rem;
+}
+.p-5{
+    padding: 3rem;
+}
+.coolest{
+	display: flex;
+	justify-content: center;
+}
+.content {
+	background-color: #ff5c77;
+	margin: 15px;
+	padding: 15px;
+	border: 5px solid #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.col{
+	background-color: #cc89f7;
+	margin: 15px;
+	padding: 15px;
+	border: 5px solid #cf1b82;;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.dudeslu{
+list-style: none;
+padding: 0;
+}
+.dudeslu li{
+	padding: 10px 30px;
+	background:#1b3697;
+	color: #fff;
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+.dudeslu li:first-child{
+	border-bottom: none;
+}
+p{
+	font-size: 22px;
+}
+.pand {
+	display: flex;
+	justify-content: center;
+}
+.pinki {
+	height: 32px;
+	width: 250px;
+	background-color: #5cffd6;
+	margin: 15px;
+	padding: 15px;
+	border: 5px solid #baa5f3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
