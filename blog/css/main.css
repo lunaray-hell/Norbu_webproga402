@@ -1,3 +1,6 @@
+body, ul {
+	margin:0;
+}
 .bg-dark{
     background-color: #333;
 }
@@ -21,6 +24,39 @@
 }
 .p-5{
     padding: 3rem;
+}
+.container{
+	 max-width: 1320px;
+	 width: 100%;
+	 margin-left: auto;
+	 margin-right: auto;
+}
+.navbar-nav{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+}
+.nav-link{
+	padding: 0.5rem 1rem ;
+	color: rgba(0,0,0,0.55);
+	text-decoration: none;
+}
+.nav-link.active {
+	color: rgba(0,0,0,0.9);
+}
+.bg-light{
+    background-color: #f3f3f3;
+
+}
+.navbar{
+	height: 50px;
+	display: flex;
+}
+.collapse{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	
 }
 .coolest{
 	display: flex;
