@@ -45,7 +45,7 @@ body, ul {
 	color: rgba(0,0,0,0.9);
 }
 .bg-light{
-    background-color: #f3f3f3;
+  background-color: #f3f3f3;
 
 }
 .navbar{
@@ -56,20 +56,33 @@ body, ul {
 	height: 100%;
 	display: flex;
 	align-items: center;
-	
+
 }
 .coolest{
 	display: flex;
 	justify-content: center;
 }
 .content {
-	background-color: #ff5c77;
+	background-color: #c3b2b5;
 	margin: 15px;
 	padding: 15px;
-	border: 5px solid #000;
+	display: flex;
+  flex-direction: column;
+}
+.cont-zag{
+	background-color: rgb(165 222 237);
+	max-width: 200px;
+	width: 95%;
+	height: 45px;
+	/* margin: 0; */
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	border-radius: 10px;
+}
+.cont-all{
+	display: flex;
+	flex-direction: row;
+	margin-top: 5px;
 }
 .col{
 	background-color: #cc89f7;
@@ -94,8 +107,24 @@ padding: 0;
 .dudeslu li:first-child{
 	border-bottom: none;
 }
+h1{
+	font-size: 1em;
+}
 p{
 	font-size: 22px;
+	margin: 0;
+}
+.but-wrapper{
+	display: flex;
+  justify-content: space-around;
+}
+.but-better{
+	border: 1px solid rgb(68, 18, 57);
+	color: rgb(255, 255, 255);
+	background-color: #703066;
+  border-radius: 5px;
+	width: 180px;
+	height: 40px;
 }
 .pand {
 	display: flex;
