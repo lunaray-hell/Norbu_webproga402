@@ -64,20 +64,14 @@ body, ul {
 }
 .content {
 	background-color: #c3b2b5;
-	margin: 15px;
+    margin: 15px; 
 	padding: 15px;
 	display: flex;
   flex-direction: column;
 }
 .cont-zag{
-	background-color: rgb(165 222 237);
-	max-width: 200px;
-	width: 95%;
-	height: 45px;
-	/* margin: 0; */
 	display: flex;
-	justify-content: center;
-	border-radius: 10px;
+	
 }
 .cont-all{
 	display: flex;
@@ -86,7 +80,7 @@ body, ul {
 }
 .col{
 	background-color: #cc89f7;
-	margin: 15px;
+	margin: 15px; 
 	padding: 15px;
 	border: 5px solid #cf1b82;;
 	display: flex;
@@ -107,9 +101,9 @@ padding: 0;
 .dudeslu li:first-child{
 	border-bottom: none;
 }
-h1{
+/* h1{
 	font-size: 1em;
-}
+} */
 p{
 	font-size: 22px;
 	margin: 0;
@@ -140,4 +134,18 @@ p{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+article{
+	border: 1px solid #333;
+	border-radius: 3px;
+	padding: 1.5rem;
+	/* margin-bottom: 1.5rem; */
+}
+.post-meta{
+	display: flex;
+	font-size: 14px;
+}
+.post-meta > *{
+	margin: 0;
+	margin-right: 15px;
 }
