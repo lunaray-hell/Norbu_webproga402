@@ -1,5 +1,6 @@
-body, ul {
+body, ul, h1, h2, h3, h4, h5 {
 	margin:0;
+	font-size: 20px;
 }
 .bg-dark{
     background-color: #333;
@@ -25,6 +26,9 @@ body, ul {
 .p-5{
     padding: 3rem;
 }
+.mt-1{
+	margin: 0.5rem;
+}
 .container{
 	 max-width: 1320px;
 	 width: 100%;
@@ -46,7 +50,6 @@ body, ul {
 }
 .bg-light{
   background-color: #f3f3f3;
-
 }
 .navbar{
 	height: 50px;
@@ -59,63 +62,57 @@ body, ul {
 
 }
 .coolest{
+	max-width: 1320px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 	display: flex;
-	justify-content: center;
+}
+.row{
+	display: flex;
+	flex-direction: row;
+}
+.sidebar{
+	width: 22%;
+	background-color: #322348;
+	margin: 4px;
+	border: 2px solid #000;
+	display: flex;
+	 justify-content: center;
 }
 .content {
-	background-color: #c3b2b5;
-    margin: 15px; 
-	padding: 15px;
+	width: 100%;
+	margin: 4px;
 	display: flex;
   flex-direction: column;
 }
-.cont-zag{
-	display: flex;
-	
-}
-.cont-all{
-	display: flex;
-	flex-direction: row;
-	margin-top: 5px;
-}
-.col{
-	background-color: #cc89f7;
-	margin: 15px; 
-	padding: 15px;
-	border: 5px solid #cf1b82;;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
 .dudeslu{
-list-style: none;
-padding: 0;
+padding: 7px;
 }
 .dudeslu li{
-	padding: 10px 30px;
-	background:#1b3697;
+	padding: 10px 40px;
+	background:#47256c;
 	color: #fff;
-	font-size: 25px;
+	font-size: 20px;
 	margin-bottom: 5px;
 }
 .dudeslu li:first-child{
 	border-bottom: none;
 }
-/* h1{
-	font-size: 1em;
-} */
-p{
-	font-size: 22px;
-	margin: 0;
-}
-.but-wrapper{
-	display: flex;
-  justify-content: space-around;
+.post-footer{
 }
 .but-better{
-	border: 1px solid rgb(68, 18, 57);
+	border: 3px solid rgb(113 95 163);
 	color: rgb(255, 255, 255);
-	background-color: #703066;
+	background-color: rgb(147 75 135);
+  border-radius: 5px;
+	width: 180px;
+	height: 40px;
+}
+.but-butter{
+	border: 3px solid rgb(4 92 70);
+	color: rgb(255 255 255);
+	background-color: rgb(46 153 101);
   border-radius: 5px;
 	width: 180px;
 	height: 40px;
@@ -135,11 +132,21 @@ p{
 	justify-content: center;
 	align-items: center;
 }
-article{
+article {
 	border: 1px solid #333;
 	border-radius: 3px;
 	padding: 1.5rem;
-	/* margin-bottom: 1.5rem; */
+	margin-bottom: 1.5rem;
+}
+.post-ft{
+	background-color: #c3b2b5;
+}
+.post-sd{
+	background-color: #52c59d;
+}
+article img{
+	max-width: 250px;
+	margin-right: 15px;
 }
 .post-meta{
 	display: flex;
@@ -148,4 +155,12 @@ article{
 .post-meta > *{
 	margin: 0;
 	margin-right: 15px;
+}
+.post-meta span {
+    font-style: italic;
+}
+.post-body {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
