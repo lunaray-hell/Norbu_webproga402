@@ -15,3 +15,57 @@ body::before{
    width: 50%;   
   }  
 }
+.img-learn {
+  width: 100%;
+}
+form .form-control {
+  border-radius: 0;
+  background: transparent;
+  color: rgb(37, 3, 56);
+  border-color: rgba(64, 27, 95, 0.445);
+}
+
+form .form-control:focus {
+  color: rgb(67, 10, 94);
+  background: transparent;
+  border-color: rgb(70, 14, 67);
+}
+
+form input.form-control {
+  height: 54px;
+}
+
+form .form-control::placeholder {
+  color: rgb(59, 13, 73);
+}
+
+.btn {
+  padding: 14px 22px;
+  transition: all 0.3s ease;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(111, 106, 255, 0.7), rgba(120, 239, 255, 0.7));
+  z-index: -1;
+}
+.btn-main {
+  background: linear-gradient(to right,#130a2c, #030229);
+  border-radius: 100px;
+  border: none;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+.section-intro {
+  margin-bottom: 40px;
+}
+
+.section-intro .divider {
+  height: 4px;
+  width: 180px;
+  background: linear-gradient(to right,#200542, #79004a);
+  margin: 16px auto;
+}
